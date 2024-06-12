@@ -64,36 +64,36 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   Future<void> loadMarkers() async {
-    List<dynamic> parkings = await fetchParkingMarkers();
-    List<Marker> loadedMarkers = parkings.map((parking) {
-      return Marker(
-        point: LatLng(
-            parking["location"]['latitude'], parking["location"]['longitude']),
+  List<dynamic> parkings = await fetchParkingMarkers();
+  List<Marker> loadedMarkers = parkings.map((parking) {
+    return Marker(
+      point: LatLng(
+          parking["location"]['latitude'], parking["location"]['longitude']),
+      width: 80,
+      height: 80,
+      child: Icon(
+        Icons.local_parking,
+        size: 60.0,
+        color: Colors.blue,
+      ),
+    );
+  }).toList();
+  setState(() {
+    markers = loadedMarkers;
+    if (myLocation != null) {
+      markers.add(Marker(
+        point: myLocation!,
         width: 80,
         height: 80,
         child: Icon(
-          Icons.local_parking,
+          Icons.location_pin,
           size: 60.0,
-          color: Colors.blue,
+          color: Colors.red,
         ),
-      );
-    }).toList();
-    setState(() {
-      markers = loadedMarkers;
-      if (myLocation != null) {
-        markers.add(Marker(
-            point: myLocation!,
-            width: 80,
-            height: 80,
-            child: Icon(
-            child: Icon(
-              Icons.location_pin,
-              size: 60.0,
-              color: Colors.red,
-            )));
-      }
-    });
-  }
+      ));
+    }
+  });
+}
 
   @override
   Widget build(BuildContext context) {
