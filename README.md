@@ -8,3 +8,5 @@ Github:
 Workspace: [https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/Tracking.aspx)
 
 Description:
+
+Screenshots and navigation 
