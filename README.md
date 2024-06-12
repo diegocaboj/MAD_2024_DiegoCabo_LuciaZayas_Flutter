@@ -90,7 +90,7 @@ Implements real-time updates for feedback using Firebase's onValue listener.
 
 HOW TO USE
 1. Login 
-You have to introduce your email and your password. If you don't have account you can use the account with the email x@hotmail.com and the password 123456.
+You have to introduce your email and your password. If you don't have account you can use the account with the email diego@hotmail.com and the password: MAD123.
 
 2. Navigation  
 The collection screen displays a list of available parking spots.  
