@@ -5,7 +5,8 @@ Github:
 
 •	Releases: [https://github.com/diegocaboj/MAD2024_DiegoCabo_LuciaZayas/releases](https://github.com/diegocaboj/MAD_2024_DiegoCabo_LuciaZayas_Flutter/releases)
 
-Workspace: [https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/Tracking.aspx)
+Workspace: [https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx)
+[Tracking in Sharepoint](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/Tracking.aspx)
 
 Description:  
 ParkFinder is an application that has numerous posibilities. The application consists of a login where you must indicate an email and password, and once inside the application, there is the possibility to view the credentials in the settings screen. In ParkFinder, you can see on a map both your location and the parking lots in Madrid, view information about them, and there is a system to give feedback with a star system and also text, and read the feedback from other users. You can also see which parking lots are near your location in addition to making queries without needing to have the location active to know which parking lots are at the distance you want from the coordinate you want. Finally, ParkFinder has a system that shows your previous locations and it leaves you the possibility of deleting them as well as seeing them. 
@@ -84,6 +85,13 @@ The app fetches parking information through HTTP requests using an external API 
 
 Real-Time Data Updates:  
 Implements real-time updates for feedback using Firebase's onValue listener.  
+
+Participants  
+List of MAD developers:  
+
+Diego Cabo Jurado (d.cabo@alumnos.upm.es) 
+
+Lucía Zayas Martin (lucia.zayas@alumnos.upm.es)
 
  
 
