@@ -7,7 +7,8 @@ Github:
 
 Workspace: [https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/Tracking.aspx)
 
-Description:
+Description:  
+ParkFinder is an application that has numerous posibilities. The application consists of a login where you must indicate an email and password, and once inside the application, there is the possibility to view the credentials in the settings screen. In ParkFinder, you can see on a map both your location and the parking lots in Madrid, view information about them, and there is a system to give feedback with a star system and also text, and read the feedback from other users. You can also see which parking lots are near your location in addition to making queries without needing to have the location active to know which parking lots are at the distance you want from the coordinate you want. Finally, ParkFinder has a system that shows your previous locations and it leaves you the possibility of deleting them as well as seeing them. 
 
 Screenshots and navigation  
 [Complete Folder](images)   
@@ -40,3 +41,57 @@ Screenshots and navigation
 [Screenshots27](images/Flutter27.JPG)  
 [Screenshots28](images/Flutter28.JPG)  
 [Screenshots29](images/Flutter29.JPG) 
+
+Demo Video:  
+[Video](https://upm365.sharepoint.com/:v:/s/MobileAppDevelopment_DiegoCabo_LuciaZayas/EXwcaUqy9MxCpCtg10OOQhcBMXkvus8zilAYcUs1DaJCGA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rzXwbC)  
+
+Features  
+
+Functional Features  
+Parking Information Display:  
+The application fetches and displays a list of parking spots with detailed information, including address, postal code, organization description, and geographical coordinates (latitude and longitude).  
+
+User Feedback:  
+Users can provide feedback on specific parking spots. This includes entering comments and giving a rating (1 to 5 stars).  
+The feedback is stored in Firebase Realtime Database and can be retrieved and displayed within the app.  
+
+Location Tracking:  
+The app tracks the user's location using the Geolocator package. This information can be used to filter parking spots based on proximity.  
+Geolocation-Based Features:  
+
+Users can enable or disable location tracking through a switch in the UI.  
+The app requests necessary location permissions from the user.  
+
+Interactive UI Elements:  
+Includes buttons and pop-up menus for navigation and additional options.  
+Feedback entries can be interacted with through long-press gestures, allowing users to update or delete their feedback.  
+
+Persistent Data Storage:  
+The app uses SharedPreferences to store and retrieve user-specific data such as API tokens.  
+
+
+Technical Features  
+
+Flutter Framework:  
+The app is built using Flutter, which allows for a single codebase to run on both Android and iOS platforms.  
+
+Firebase Integration:
+Utilizes Firebase Authentication for user authentication.  
+Firebase Realtime Database is used to store and retrieve user feedback data.  
+
+Geolocation:  
+The Geolocator package is used to access and track the user's location with high accuracy.  
+Location data is periodically saved to a CSV file and displayed in the UI.  
+
+API Interaction:  
+The app fetches parking information through HTTP requests using an external API service.  
+
+Real-Time Data Updates:  
+Implements real-time updates for feedback using Firebase's onValue listener.  
+
+Error Handling:  
+Comprehensive error handling for various operations like network requests, Firebase interactions, and geolocation services.  
+
+UI/UX Design:  
+Modern Material Design components for a clean and intuitive user interface.  
+Uses various widgets like ListView, StreamBuilder, TextFormField, and SnackBar for a responsive and interactive user experience.
