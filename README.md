@@ -129,7 +129,7 @@ Diego Cabo Jurado (d.cabo@alumnos.upm.es)
 Lucía Zayas Martin (lucia.zayas@alumnos.upm.es)  
 Workload distribution(50%/50%)  
 
-Releases: [https://github.com/diegocaboj/MAD_2024_DiegoCabo_LuciaZayas_Flutter/releases/tag/s20.2024](https://github.com/diegocaboj/MAD_2024_DiegoCabo_LuciaZayas_Flutter/releases/tag/s20.2024)
+Releases: [https://github.com/diegocaboj/MAD_2024_DiegoCabo_LuciaZayas_Flutter/releases](https://github.com/diegocaboj/MAD_2024_DiegoCabo_LuciaZayas_Flutter/releases)
 
  
 
