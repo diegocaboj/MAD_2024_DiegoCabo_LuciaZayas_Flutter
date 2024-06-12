@@ -5,8 +5,8 @@ Github:
 
 •	Releases: [https://github.com/diegocaboj/MAD2024_DiegoCabo_LuciaZayas/releases](https://github.com/diegocaboj/MAD_2024_DiegoCabo_LuciaZayas_Flutter/releases)
 
-Workspace: [https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx)
-[Tracking in Sharepoint](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/Tracking.aspx)
+Workspace: [https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/CollabHome.aspx)  
+[Tracking in Sharepoint](https://upm365.sharepoint.com/sites/MobileAppDevelopment_DiegoCabo_LuciaZayas/SitePages/Tracking.aspx)  
 
 Description:  
 ParkFinder is an application that has numerous posibilities. The application consists of a login where you must indicate an email and password, and once inside the application, there is the possibility to view the credentials in the settings screen. In ParkFinder, you can see on a map both your location and the parking lots in Madrid, view information about them, and there is a system to give feedback with a star system and also text, and read the feedback from other users. You can also see which parking lots are near your location in addition to making queries without needing to have the location active to know which parking lots are at the distance you want from the coordinate you want. Finally, ParkFinder has a system that shows your previous locations and it leaves you the possibility of deleting them as well as seeing them. 
@@ -85,6 +85,43 @@ The app fetches parking information through HTTP requests using an external API 
 
 Real-Time Data Updates:  
 Implements real-time updates for feedback using Firebase's onValue listener.  
+
+HOW TO USE
+1. Launching the App  
+Download and install ParkFinder from your app store.  
+
+2. Navigation  
+The collection screen displays a list of available parking spots.  
+Tap on a parking spot to view more details.  
+
+3. Providing Feedback
+Access Feedback:
+Select a parking spot and go to the feedback section.
+Enter Feedback:  
+Add your comments in the text field and select a rating from 1 to 5 stars.  
+Submit Feedback:  
+Tap "Submit Feedback" to send your review.
+ 
+4. Viewing and Updating Feedback  
+View Feedback:  
+Feedback from other users is displayed under each parking spot.  
+Update/Delete Feedback:  
+Long-press your feedback entry to update or delete it.
+
+5. Location-Based Services  
+Enable Location Tracking:  
+Allow location permissions when prompted.  
+Find Nearby Spots:  
+Use the "Near Me" option to see  nearby parking spots (600 meters from you).  
+Custom Location:  
+Enter manually latitude, longitude, and distance in the "Filter by" option to see which parking lots are in these distance in meters.
+
+6. Map View    
+Access Map View:  
+Tap the map view to see parking spots on a map.  
+
+7. Logging Out
+Go to the app menu and select the logout option to log out.
 
 Participants  
 List of MAD developers:  
