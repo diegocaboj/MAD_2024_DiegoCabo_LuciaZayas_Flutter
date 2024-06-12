@@ -87,8 +87,8 @@ Real-Time Data Updates:
 Implements real-time updates for feedback using Firebase's onValue listener.  
 
 HOW TO USE
-1. Launching the App  
-Download and install ParkFinder from your app store.  
+1. Login 
+You have to introduce your email and your password. If you don't have account you can use the account with the email x@hotmail.com and the password 123456.
 
 2. Navigation  
 The collection screen displays a list of available parking spots.  
@@ -116,12 +116,11 @@ Use the "Near Me" option to see  nearby parking spots (600 meters from you).
 Custom Location:  
 Enter manually latitude, longitude, and distance in the "Filter by" option to see which parking lots are in these distance in meters.
 
-6. Map View    
-Access Map View:  
+6. Map View     
 Tap the map view to see parking spots on a map.  
 
-7. Logging Out
-Go to the app menu and select the logout option to log out.
+7. Logging Out  
+Go to the app menu and select the logout option in settings to log out.
 
 Participants  
 List of MAD developers:  
