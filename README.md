@@ -45,9 +45,11 @@ Screenshots and navigation
 Demo Video:  
 [Video](https://upm365.sharepoint.com/:v:/s/MobileAppDevelopment_DiegoCabo_LuciaZayas/EXwcaUqy9MxCpCtg10OOQhcBMXkvus8zilAYcUs1DaJCGA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rzXwbC)  
 
-Features  
 
-Functional Features  
+
+
+FEATURES  
+FUNCTIONAL FEATURES    
 Parking Information Display:  
 The application fetches and displays a list of parking spots with detailed information, including address, postal code, organization description, and geographical coordinates (latitude and longitude).  
 
@@ -70,7 +72,7 @@ Persistent Data Storage:
 The app uses SharedPreferences to store and retrieve user-specific data such as API tokens.  
 
 
-Technical Features  
+TECHNICAL FEATURES  
 
 Flutter Framework:  
 The app is built using Flutter, which allows for a single codebase to run on both Android and iOS platforms.  
