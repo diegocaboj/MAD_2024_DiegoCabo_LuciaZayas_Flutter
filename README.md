@@ -52,7 +52,7 @@ Demo Video:
 FEATURES  
 FUNCTIONAL FEATURES    
 Parking Information Display:  
-ParkFinder fetches and displays a list of parking spots with detailed information, including address, postal code, organization description, and geographical coordinates (latitude and longitude).  
+ParkFinder fetches and displays a list of parking spots with detailed information, including address, postal code, organization description, latitude and longitude.  
 
 User Feedback:  
 Users can provide feedback on specific parking spots of Madrid. This includes entering comments and giving a rating (1 to 5 stars).  
