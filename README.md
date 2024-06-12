@@ -59,8 +59,8 @@ The feedback is stored in Firebase Realtime Database and can be retrieved and di
 
 Location Tracking:  
 The app tracks the user's location using the Geolocator package. This information can be used to filter parking spots based on proximity.  
-Geolocation-Based Features:  
 
+Geolocation-Based Features:  
 Users can enable or disable location tracking through a switch in the UI.  
 The app requests necessary location permissions from the user.  
 
