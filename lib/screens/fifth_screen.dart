@@ -31,7 +31,7 @@ class _FifthScreenState extends State<FifthScreen> {
         setState(() {
           starts = index;
         });
-        _submitFeedback(context, user);
+        //_submitFeedback(context, user);
       },
       child: Icon(
         Icons.star,
@@ -134,7 +134,7 @@ class _FifthScreenState extends State<FifthScreen> {
                                             DatabaseReference feedbackRef =
                                             FirebaseDatabase.instance
                                                 .reference()
-                                                .child('feedback');
+                                                .child('feedback').child(key);
                                             feedbackRef.remove().then((_) {
                                               Fluttertoast.showToast(
                                                 msg:
