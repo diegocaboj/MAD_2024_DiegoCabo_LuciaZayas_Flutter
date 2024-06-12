@@ -126,9 +126,9 @@ Go to the app menu and select the logout option to log out.
 Participants  
 List of MAD developers:  
 
-Diego Cabo Jurado (d.cabo@alumnos.upm.es) 
-
-Lucía Zayas Martin (lucia.zayas@alumnos.upm.es)
+Diego Cabo Jurado (d.cabo@alumnos.upm.es)   
+Lucía Zayas Martin (lucia.zayas@alumnos.upm.es)  
+Workload distribution(50%/50%)
 
  
 
