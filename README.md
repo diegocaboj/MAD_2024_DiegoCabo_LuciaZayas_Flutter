@@ -51,38 +51,32 @@ Demo Video:
 FEATURES  
 FUNCTIONAL FEATURES    
 Parking Information Display:  
-The application fetches and displays a list of parking spots with detailed information, including address, postal code, organization description, and geographical coordinates (latitude and longitude).  
+ParkFinder fetches and displays a list of parking spots with detailed information, including address, postal code, organization description, and geographical coordinates (latitude and longitude).  
 
 User Feedback:  
-Users can provide feedback on specific parking spots. This includes entering comments and giving a rating (1 to 5 stars).  
+Users can provide feedback on specific parking spots of Madrid. This includes entering comments and giving a rating (1 to 5 stars).  
 The feedback is stored in Firebase Realtime Database and can be retrieved and displayed within the app.  
 
 Location Tracking:  
-The app tracks the user's location using the Geolocator package. This information can be used to filter parking spots based on proximity.  
+ParkFinder tracks the user's location using the Geolocator package. This information can be used to filter parking spots based on proximity.  
 
 Geolocation-Based Features:  
-Users can enable or disable location tracking through a switch in the UI.  
-The app requests necessary location permissions from the user.  
+Users can enable or disable location tracking through a switch in the home screen.  
 
-Interactive UI Elements:  
-Includes buttons and pop-up menus for navigation and additional options.  
+Interactive UI Elements:    
 Feedback entries can be interacted with through long-press gestures, allowing users to update or delete their feedback.  
 
 Persistent Data Storage:  
-The app uses SharedPreferences to store and retrieve user-specific data such as API tokens.  
+PArkFinder uses SharedPreferences to store and retrieve user-specific data.  
 
 
 TECHNICAL FEATURES  
 
-Flutter Framework:  
-The app is built using Flutter, which allows for a single codebase to run on both Android and iOS platforms.  
-
-Firebase Integration:
-Utilizes Firebase Authentication for user authentication.  
-Firebase Realtime Database is used to store and retrieve user feedback data.  
+Firebase Integration:  
+the app uses Firebase Authentication for user authentication and to store and retrieve user feedback data.   
 
 Geolocation:  
-The Geolocator package is used to access and track the user's location with high accuracy.  
+The Geolocator package is used to access and track the user's location.  
 Location data is periodically saved to a CSV file and displayed in the UI.  
 
 API Interaction:  
@@ -91,9 +85,5 @@ The app fetches parking information through HTTP requests using an external API 
 Real-Time Data Updates:  
 Implements real-time updates for feedback using Firebase's onValue listener.  
 
-Error Handling:  
-Comprehensive error handling for various operations like network requests, Firebase interactions, and geolocation services.  
+ 
 
-UI/UX Design:  
-Modern Material Design components for a clean and intuitive user interface.  
-Uses various widgets like ListView, StreamBuilder, TextFormField, and SnackBar for a responsive and interactive user experience.
